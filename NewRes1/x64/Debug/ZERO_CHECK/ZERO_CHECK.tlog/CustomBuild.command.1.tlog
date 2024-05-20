@@ -1,0 +1,10 @@
+^C:\USERS\HOME\DOCUMENTS\GITHUB\LABABA\NEWRES1\CMAKEFILES\392A3AC826946DFA6EACF670ECDA0D78\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Home/Documents/GitHub/labaBA/CloneCMakeEgor -BC:/Users/Home/Documents/GitHub/labaBA/NewRes1 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Home/Documents/GitHub/labaBA/NewRes1/Egor.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

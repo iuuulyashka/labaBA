@@ -1,0 +1,3 @@
+C:/Users/Home/Documents/GitHub/labaBA/NewRes1/CMakeFiles/Egor.dir
+C:/Users/Home/Documents/GitHub/labaBA/NewRes1/CMakeFiles/ALL_BUILD.dir
+C:/Users/Home/Documents/GitHub/labaBA/NewRes1/CMakeFiles/ZERO_CHECK.dir
